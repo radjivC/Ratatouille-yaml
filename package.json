@@ -1,0 +1,39 @@
+{
+  "name": "ratatouille-yaml",
+  "version": "0.1.0",
+  "description": "Module to make you life easier with yaml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radjivC/Ratatouille-yaml.git"
+  },
+  "keywords": [
+    "yaml",
+    "find",
+    "create",
+    "delete",
+    "get",
+    "read",
+    "update",
+    "yml",
+    "ratatouille",
+    "manage",
+    "content"
+  ],
+  "author": {
+    "name": "radjivf",
+    "email":"carrereradjiv@yahoo.fr",
+    "personal-website":"about.me/radjivf"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radjivC/Ratatouille-yaml/issues"
+  },
+  "dependencies": {
+
+  },
+  "main": "./lib/ratatouille.js",
+  "readme": "# ratatouille-yaml\n\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/radjivC/Ratatouille-yaml",
+  "_id": "Ratatouille-yaml@0.1.0"
+}
