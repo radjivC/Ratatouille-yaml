@@ -1,25 +1,34 @@
-Ratatouille-Yaml
+Ratatouille-Yaml (Comming soon)
 ====================
 
-How to use google maps knowledge with node.js
-https://www.npmjs.com/package/node-geolocalisation
+I didn't find a good module where you can easily, manage yaml data.
+So with this module, you can extract a key, find a key with recurvity, update it etc.
 
 ##Installation
 
 ```
-    npm install node-geolocation
+    npm install ratatouille-yaml
 ```
 
 ## Usage example
 
 ```
-distanceBetweenTwoCoord('-1,-2','3,4');
+getValue(key);
 ```
 ```
-adressToCoord('Paris, France');
+getKey('value');
 ```
 ```
-distanceBetweenTwoAdress('Paris, France','New-York city');
+updateKey('key','newValue');
+```
+```
+ModificateKey('key','newcontent');
+```
+```
+deleteKey(key);
+```
+```
+create(motherKey);
 ```
 
-Enjoy !!!
+I hope this module is usefull for you, Enjoy !!!
