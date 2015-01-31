@@ -1,4 +1,4 @@
-Ratatouille-Yaml (Comming soon)
+Ratatouille-Yaml (Coming soon)
 ====================
 
 I didn't find a good module where you can easily, manage yaml data.
