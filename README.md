@@ -19,10 +19,10 @@ getValue(key);
 getKey('value');
 ```
 ```
-updateKey('key','newValue');
+changeKey('key','newNameKey');
 ```
 ```
-modificateKey('key','newcontent');
+updateKey('key','newcontent');
 ```
 ```
 deleteKey(key);
