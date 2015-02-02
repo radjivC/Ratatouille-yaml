@@ -22,7 +22,7 @@ getKey('value');
 updateKey('key','newValue');
 ```
 ```
-ModificateKey('key','newcontent');
+modificateKey('key','newcontent');
 ```
 ```
 deleteKey(key);
