@@ -4,6 +4,8 @@ Ratatouille-Yaml (Coming soon)
 I didn't find a good module where you can easily, manage yaml data.
 So with this module, you can extract a key, find a key with recurvity, update it etc.
 
+
+
 ##Installation
 
 ```
@@ -30,5 +32,6 @@ deleteKey(key);
 ```
 create(motherKey);
 ```
+LICENCE MIT
 
 I hope this module is usefull for you, Enjoy !!!
