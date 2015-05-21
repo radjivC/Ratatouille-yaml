@@ -24,6 +24,6 @@
     "method-override": "^1.0.0"
   },
   "bin": {
-    "simple-server": "./start.js"
+    "salsa-express": "./start.js"
   }
 }
