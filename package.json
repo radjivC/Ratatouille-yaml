@@ -1,39 +1,29 @@
 {
-  "name": "ratatouille-yaml",
+  "name": "salsa-express",
   "version": "0.1.0",
-  "description": "Module to make you life easier with yaml",
+  "description": "A very simple static file server build with express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/radjivC/Ratatouille-yaml.git"
+    "url": "git://github.com/radjivC/salsa-express.git"
   },
-  "keywords": [
-    "yaml",
-    "find",
-    "create",
-    "delete",
-    "get",
-    "read",
-    "update",
-    "yml",
-    "ratatouille",
-    "manage",
-    "content"
-  ],
-  "author": {
-    "name": "radjivf",
-    "email":"carrereradjiv@yahoo.fr",
-    "personal-website":"about.me/radjivf"
-  },
+  "author": "Radjiv Carrere",
+  "contributors" : [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/radjivC/Ratatouille-yaml/issues"
+    "url": "https://github.com/radjivC/salsa-express/issues"
   },
+  "homepage": "https://github.com/radjivC/salsa-express",
   "dependencies": {
-
+    "express": "^4.1.2",
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "method-override": "^1.0.0"
   },
-  "main": "./lib/ratatouille.js",
-  "readme": "# ratatouille-yaml\n\n",
-  "readmeFilename": "README.md",
-  "homepage": "https://github.com/radjivC/Ratatouille-yaml",
-  "_id": "Ratatouille-yaml@0.1.0"
+  "bin": {
+    "simple-server": "./start.js"
+  }
 }
